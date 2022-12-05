@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Awesome Bookstore</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <h2>Awesome Books</h2>
+      </div>
+      <div class="nav-list-container">
+        <ul class="nav-list">
+          <li class="nav-list-item book-page"><a href="#display-Books">List <span class="divider">|</span></li></a>
+          <li class="nav-list-item add-page"><a href="# add-New">Add new <span class="divider">|</span></li></a>
+          <li class="nav-list-item info-page"><a href="#contact">Contact <span class="divider"></span></li></a>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <p class="date"></p>
+  <section id="display-Books">
+    <h1 class="sect-1-title">All awesome books</h1>
+    <div class="book-shelf">
+
+    </div>
+  </section>
+
+  <section id="add-new">
+    <div id="form-container">
+      <h1 class="sect-1-title">Add a new book</h1>
+      <form id="form">
+        <input id="title" type="text" name="title" placeholder="book title:" required /><br /><br />
+        <input type="text" id="author" name="author" placeholder="book author" required /><br /><br />
+        <input type="submit" class="form-control" value="add book" />
+      </form>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1 class="sect-1-title">Contact information</h1>
+    <div class="contact-info">
+      <p class="c-text">Do you have any questions or you just want to say "Hello"?<span><br>You can reach out to
+          us!</span></p>
+      <br>
+      <ul class="c-list">
+        <li class="c-item">
+          <h3>Our e-mail: awesomebooks@mail.com</h3>
+        </li>
+        <li>
+          <h3>phone number: 00435834422</h3>
+        </li>
+        <li>
+          <h3>Our address: Streetname 22, 84503 Kanta, Accra</h3>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    Copyright @awesomebooks, 2022.
+  </footer>
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>
