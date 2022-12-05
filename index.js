@@ -1,3 +1,4 @@
+import { DateTime } from './modules/luxon.min.js';
 import Book from './modules/bookclass.js';
 import pageFunctionality from './modules/ui_controller.js';
 
@@ -42,5 +43,11 @@ removeBtn.forEach((item, index) => {
     takeOut.removeBook(takeOut.title);
   });
 });
+
+// add current day and time to page using luxon module
+const currDate = document.querySelector('.date');
+const dt = DateTime.now();
+const today = dt.toLocaleString(DateTime.DATETIME_MED);
+currDate.innerHTML = `${today}`;
 
 pageFunctionality.pageFunctionality();

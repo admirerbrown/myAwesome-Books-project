@@ -1,4 +1,3 @@
-
 body {
   height: 100vh;
   display: flex;
@@ -97,6 +96,13 @@ input[type=submit] {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.date {
+  text-align: right;
+  font-size: 18px;
+  margin: 40px;
+  color: #2d033b;
 }
 
 footer {
