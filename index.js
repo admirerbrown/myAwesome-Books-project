@@ -11,14 +11,16 @@ if (getBooks !== null) {
 // create a book every time the add book btn is clicked.
 document.addEventListener('submit', (e) => {
   e.preventDefault();
-  const title = document.getElementById('title').value;
-  const authorInput = document.getElementById('author').value;
+  let title = document.getElementById('title').value;
+  let authorInput = document.getElementById('author').value;
 
   const newBook = new Book.Book(title, authorInput); // create new book object
   bookList.push(newBook);
 
   // send book to local storage
   newBook.storeBook(bookList);
+  title = '';
+  authorInput = '';
 });
 
 // dynamically showing book in the UI

@@ -1,4 +1,4 @@
-function pageFunctionality() {
+const pageFunctionality = () => {
   // show the right navigation page
   const listMenu = document.querySelector('.book-page');
   const addMenu = document.querySelector('.add-page');
@@ -46,6 +46,6 @@ function pageFunctionality() {
       booksDiv[i].style.backgroundColor = '#EEEEEE';
     }
   }
-}
+};
 
 export default { pageFunctionality };
