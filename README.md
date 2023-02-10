@@ -42,7 +42,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Awesome Books Project](to come)
+[click here](https://admirerbrown.github.io/myAwesome-Books-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
